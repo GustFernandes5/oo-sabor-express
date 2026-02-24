@@ -1,4 +1,4 @@
-from livro import Livro
+from extras.livro import Livro
 
 eragon = Livro("Dragao", "Alguem", 1988)
 
