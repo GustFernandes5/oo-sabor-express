@@ -3,9 +3,9 @@ from modelos.cardapio.item_cardapio import ItemCardapio
 
 class Bebida(ItemCardapio):
 
-    def __init__(self, nome, preco, tamanho):
+    def __init__(self, nome, preco, tamanho_bebida):
         super().__init__(nome, preco)
-        self.tamanho = tamanho
+        self.tamanho_bebida = tamanho_bebida
 
     def __str__(self):
         return self._nome
